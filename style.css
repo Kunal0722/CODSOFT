@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
+@font-face{
+    font-family: myFont;
+    src: url(./assets/Autumn\ in\ November.ttf );
+}
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background: url(./assets/background.png);
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+.logo h1 a{
+    color: antiquewhite;
+    font-family: myFont;
+    font-size: 2.0em;
+    margin-left: 20px;
+}
+nav {
+    font-weight: 600;
+    
+    overflow: hidden;
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap ;
+   
+}
+nav ul{
+    margin: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap ;
+    position: relative;
+}
+nav ul li{
+    margin: 50px;
+    list-style: none;
+   
+}
+a{
+    font-size: larger;
+    color:rgb(115, 4, 4);
+    text-decoration: none;
+    transition: 0.5s;
+    border-radius: 20px;
+}
+nav ul a:hover{
+    
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    
+}
+.container{
+    padding-top: 5%;
+    font-size: xx-large;
+    max-width: 50%;
+    margin:13% ;
+    text-align: left;
+    margin-left: 12%;
+}
+button{
+    box-shadow: 0px 0px 20px rgb(69, 67, 67);
+    margin-top: 4%;
+    font-size: x-large;
+    padding:10px;
+    border-radius: 20px;
+    background: white;
+    transition: 0.3s;
+    margin-bottom: 15%;
+}
+button:hover{
+    background: rgb(14, 204, 204);
+    color:white;
+}
+span{
+    color: rgb(133, 214, 46);
+}
+.container h1{
+    letter-spacing: 2px;
+    
+}
+hr{
+    
+    height: 5%;
+    background: white;
+    width: 100%;
+}
+.plans{
+    
+    text-align: center;
+    height: 150vh;
+    width: 100%;
+    background:url(./assets/background2.png) ;
+    background-position: center;
+    background-size: cover;
+    color: rgb(39, 38, 38);
+    z-index: 1;
+}
+.plans hr{
+    width: 95%;
+}
+.plans h3{
+    margin-top: 5%;
+    color: white;
+    font-size: 1.5em;
+    letter-spacing: 5px;
+}
+.plans header h1{
+    z-index: 1;
+    padding-top: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    letter-spacing: 5px;
+    font-size:4em;
+    text-shadow: 0px 0px 20px white;
+    color: rgb(255, 255, 255);
+}
+.container-2{
+    font-size: larger;
+    margin-left: 10px;
+    margin-top: 10%;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    display: flex;
+    
+}
+.container-2 div{
+    height: fit-content;
+    overflow: hidden;
+    padding:40px;
+    max-width: 300px;
+    margin-left: 10%;
+    border-radius: 20px;
+    transform: scale(0.9);
+    transition: 0.5s;
+    
+}
+.container-2 .option-1{
+    box-shadow: 2px 2px 20px rgb(45, 45, 45);
+    background: url(./assets/AIML_edited.jpg);
+    background-size: cover;
+    color:#fff;
+    
+    
+}
+.container-2 .option-2{
+    box-shadow: 2px 2px 20px rgb(45, 45, 45);
+    background: url(./assets/Web-dev_edited.jpg);
+    background-size: cover;
+    color:#fff;
+    
+}
+.container-2 .option-3{
+    box-shadow: 2px 2px 20px rgb(45, 45, 45);
+    background: url(./assets/ethicalhacking_edited.jpg);
+    background-size: cover;
+    color:#fff;
+    
+}
+.container-2 div:hover{
+    transform: scale(1.05);
+}
+.container-2 p{
+    margin-top:20px;
+    font-size: large;
+}
+.container-2 button{
+    font-size:1.5em ;
+    padding: 15px;
+    border-radius: 25px;
+    transform: scale(0.8);
+    margin-top: 20px;
+    box-shadow: 0px 0px 10px rgb(203, 197, 197);
+    
+}
+.container-2 button:hover{
+    background: rgb(120, 4, 198);
+    
+}
+.plans .choice{
+    margin-top: 50px;
+    font-size: 3em;
+    color: white;
+    letter-spacing: 5px;
+}
+.about{
+    background: url(./assets/background4.png);
+    height:200vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.about{
+    text-align: center;
+    font-size: 3em;
+}
+.ribbon{
+    
+    background:white;
+    background-size: cover;
+}
+.about header{
+    font-size: 1.5em;
+    padding:7%;
+    letter-spacing: 5px;
+    text-shadow: 0px 0px 20px white;
+}
+.social-media{
+    margin-top: 200px;
+}
+.social-media img{
+    width: 50px;
+    display: grid;
+    margin-bottom: 50px;
+    margin-left: 200px;
+    border-radius: 50%;
+    border:2px solid#fff;
+    transition: 0.6s;
+}
+.social-media img:hover{
+    transform: scale(1.3);
+    box-shadow: 0px 0px 20px #ffffff83;
+}
+.profile img{
+    margin-top: 10%;
+    margin-left: 30%;
+    width: 300px;
+    border-radius: 50%;
+    box-shadow:0px 0px 50px #4a4747;
+    padding: 10px;
+    transition: 0.7s;
+}
+.profile h1{
+    margin-top: 10px;
+}
+.profile img:hover{
+    transform: scale(1.07);
+
+}
+.container-3{
+    display: flex;
+    
+}
+footer{
+    
+    background: #fff;
+    align-items: center;
+    text-align: center;
+    color: black;
+}
+.profile{
+    padding: 15px;
+    border:5px;
+    box-shadow: 0px 0px 50px #784287;
+    background: linear-gradient(#784287, #ab5ba4);
+    border-radius: 20px;
+    align-items: center;
+    display: grid;
+    margin-bottom: 20%;
+    margin-left: 20%;
+    transform: scale(0.8);
+    max-width:50%;
+    
+}
+.profile p{
+    transform: scale(0.7);
+
+    letter-spacing: 5px;
+}
